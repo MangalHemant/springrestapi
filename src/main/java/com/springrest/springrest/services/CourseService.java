@@ -12,7 +12,7 @@ public interface CourseService {
 
     public List<Course> addCourse(Course courseToAdd);
 
-    public List<Course> deleteCourse(Long courseId);
+    public void deleteCourse(Long courseId);
 
     public List<Course> updateCourse(Course courseToUpdate);
 }
